@@ -1,10 +1,6 @@
 # El juego del taxista
 
-When you run the program in a terminal you will be asked to provide the number of taxis and the number of clients. These will be created at a random position in a 50x50 matrix. 
-
-Taxis and clients randomly move through the matrix. Taxis move faster and don't know where are the clients, but they can "see" them when they are next to them. Only one taxi can carry a client and a taxi only can take a client at a time, until it takes him to the destination. First taxi that takes 10 clients to their destination wins.
-
-
+![taxi](https://user-images.githubusercontent.com/48054735/123552650-5ad63580-d777-11eb-9663-3cb45dad8428.jpg)
 
 ## 1. Objetivo
 
@@ -48,3 +44,7 @@ donde los argumentos son opcionales y son los siguientes:
 -   <code>–simple</code> o <code>-s</code>: Se muestra por pantalla únicamente cuando un taxi recoge un cliente y le deja en su destino.
 
 Solo se puede ejecutar con uno de estos argumentos. Si se ejecuta sin argumentos, además de imprimir los sucesos que se muestran en <code>–simple</code>, se muestran las posiciones de los clientes creados.
+
+## 4. Implementación y decisiones de diseño
+
+Véase el documento *practica4.pdf*.
